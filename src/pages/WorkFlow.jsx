@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/Workflow.css'
+import '../css/workflow.css'
 
 import Heading from "../components/Heading"
 import workflow from '../data/Workflow.json'
@@ -8,8 +8,6 @@ import { motion } from "motion/react"
 
 
 function WorkFlow() {
-
-
 
     return (
         <section className='workflow'>
