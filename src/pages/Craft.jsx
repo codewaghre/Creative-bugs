@@ -54,8 +54,8 @@ function Craft() {
                                             key={video.id}
                                             className='craft-video'
                                             whileInView={{ y: 0, scale: 1 }}
-                                            initial={{ y: 50, scale: 0.8 }}
-                                            transition={{ duration: 2, ease: "easeOut" }}
+                                            initial={{ y: 50, scale: 0.9 }}
+                                            transition={{ duration: 1.5, ease: "easeOut" }}
                                             viewport={{ once: false, amount: 0.2 }}
                                         >
                                             <Video src={video.reel} />
