@@ -7,7 +7,8 @@ import Button from '../components/Button'
 import Video from '../components/Video'
 import gallery from "../data/Gallery.json"
 
-import { motion } from "motion/react"
+import { motion } from 'motion/react'
+
 
 function Gallery() {
 

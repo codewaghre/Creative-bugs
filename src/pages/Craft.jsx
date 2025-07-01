@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import '../css/craft.css'
 
 
-import { motion } from "motion/react"
+
 import { Link } from "react-router-dom"
 import { FiArrowUpRight } from "react-icons/fi";
 
@@ -10,6 +10,7 @@ import Heading from "../components/Heading"
 import Video from '../components/Video';
 import craft from '../data/Craft.json'
 
+import { motion } from 'motion/react'
 
 function Craft() {
 
@@ -17,7 +18,6 @@ function Craft() {
         <>
             <section className='craft'>
                 <motion.div
-
                     className='craft-heading'
                     whileInView={{ opacity: 1, y: 0 }}
                     initial={{ opacity: 0, y: 100 }}

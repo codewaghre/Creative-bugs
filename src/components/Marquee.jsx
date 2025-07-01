@@ -15,7 +15,7 @@ function Marquee({ images, from, to }) {
                     transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
                 >
                     {
-                        images.map((brand, index) => <img className='brand-img' key={brand.id} src={brand.brand} />)
+                        images.map((brand) => <img className='brand-img' key={brand.id} src={brand.brand} />)
                     }
                 </motion.div>
 
@@ -26,7 +26,7 @@ function Marquee({ images, from, to }) {
                     transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
                 >
                     {
-                        images.map((brand, index) => <img className='brand-img' key={brand.id} src={brand.brand} />)
+                        images.map((brand) => <img className='brand-img' key={brand.id} src={brand.brand} />)
                     }
                 </motion.div>
             </div>

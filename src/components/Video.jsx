@@ -1,7 +1,7 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import { BlurhashCanvas } from 'react-blurhash';
 
-function Video({ src, placeholder }) {
+function Video({ src }) {
     const [isLoading, setIsLoading] = useState(false);
 
     return (

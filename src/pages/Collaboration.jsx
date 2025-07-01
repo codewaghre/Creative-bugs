@@ -2,7 +2,8 @@ import React from 'react'
 import '../css/collaboration.css'
 import brands from '../data/Brand.json'
 import Marquee from '../components/Marquee'
-import { motion } from "motion/react"
+
+import { motion } from 'motion/react'
 
 function Collaboration() {
     const ourbrands = [...brands]
